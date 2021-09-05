@@ -57,7 +57,7 @@ const   addFieldHandler = () =>{
   
   return (
 
-<>
+
   
     <InputGroup className="mb-3" size="sm">
 
@@ -68,22 +68,21 @@ const   addFieldHandler = () =>{
     <InputGroup.Prepend>
     <Button variant="outline-primary" onClick={addFieldHandler}>مادة معادة </Button>
     </InputGroup.Prepend>
-    <InputGroup.Append>
-      <Button onClick={deleteHandler} variant="outline-primary" size="sm" >
-        Remove
-      </Button>
-      </InputGroup.Append>
 
-    
-    </InputGroup>
-          
   
-  <FormControl required  type="number" max="3" min="1"  value={data[id]?.hour} name="hour"    placeholder="الساعة" onChange={ changeHandler } />
-    <FormControl required type="number" max="100" min="35"  step="0.01" value={data[id]?.grade}  name="grade"  placeholder="العلامة المتوقعة " onChange={ changeHandler } />
-    {addInputField &&   <FormControl required type="number" max="100" min="35"  step="0.01" value={data[id]?.prevGrade}  name="العلامة السابقة"  placeholder="prevGrade" onChange={ changeHandler } />  }
+  <FormControl required  type="number" max="14" min="1"  value={data[id]?.hour} name="hour"    placeholder="عدد الساعات" onChange={ changeHandler } />
+    <FormControl required type="number" max="100" min="35"  step="0.01" value={data[id]?.grade}  name="grade"  placeholder="العلامة المتوقعة" onChange={ changeHandler } />
+    {addInputField &&   <FormControl required type="number" max="100" min="35"  step="0.01" value={data[id]?.prevGrade}  name="prevGrade"  placeholder="العلامة السابقة" onChange={ changeHandler } />  }
 
+  <InputGroup.Append>
+    <Button onClick={deleteHandler} variant="outline-primary" size="sm" >
+      Remove
+    </Button>
+    </InputGroup.Append>
 
-</>
+      </InputGroup>
+      
+
 
     
   );

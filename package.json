@@ -1,13 +1,15 @@
 {
   "name": "grade-calculator",
   "version": "0.1.0",
-  "homepage":"https://i7moda2000.github.io/grade-calculator/",
+  "homepage": "https://i7moda2000.github.io/grade-calculator/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "lodash": "^4.17.21",
+    "mathjs": "^9.4.4",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
@@ -22,17 +24,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig":{
-  "plugins": [
-
-    "react-hooks"
-  ],
-  "rules": {
-    
-    "react-hooks/rules-of-hooks": "error", 
-    "react-hooks/exhaustive-deps": "warn"
-  }
-},
+  "eslintConfig": {
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3"
   }
 }
