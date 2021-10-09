@@ -1,14 +1,17 @@
 # برنامج لحساب المعدل التراكمي
 
-لي react js  اول مشروع   
+[Try it](https://i7moda2000.github.io/grade-calculator/)
+
+
+ 
 
 #### : الوظائف
 
-- حساب المعدل الفصلي 
+[x] حساب المعدل الفصلي 
 
-- حساب المعدل التراكمي 
+[x] حساب المعدل التراكمي 
 
-- حساب المعدل مع الناجح راسب والمواد المعادة
+[ ] ~~حساب المعدل مع الناجح راسب والمواد المعادة~~
 
 
 
@@ -22,5 +25,20 @@
 
 
 
-try it : https://i7moda2000.github.io/grade-calculator/
+### To run it locally :
+
+clone the repo and cd to the project directory then run: 
+
+
+~~~
+npm i
+~~~
+
+then
+
+~~~
+npm start 
+~~~
+
+
 
