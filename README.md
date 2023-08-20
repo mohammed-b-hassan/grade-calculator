@@ -1,6 +1,6 @@
 # برنامج لحساب المعدل التراكمي
 
-[Try it](https://i7moda2000.github.io/grade-calculator/)
+[Try it](https://mohammed-b-hassan.github.io/grade-calculator/)
 
 
  
